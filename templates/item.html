@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+
+{% block title %} 
+  <title>Items wala page</title>
+  
+{% endblock %} 
+
+{% block content %} 
+    <img src="{{ url_for('static', path='/fastapi.png') }}" alt="FastAPI">
+    <h1>is awesome!</h1>
+    <p>Path for item ID: {{ id }}</p>
+{% endblock %} 
